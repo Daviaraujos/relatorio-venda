@@ -4,6 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
+
 # Com uma visão mensal
 #faturamento por unidade… 
 # tipo de produto mais vendido, contribuição por filial,
