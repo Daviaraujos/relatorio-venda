@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+try:
+    import plotly.express as px
+except ImportError:
+    print("Plotly não está instalado. Execute 'pip install plotly'.")
 
 st.set_page_config(layout="wide")
 
